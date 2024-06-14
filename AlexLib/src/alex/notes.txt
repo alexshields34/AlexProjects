@@ -1,0 +1,14 @@
+Install the library:
+
+$ mvn install:install-file -Dfile=./AlexLib.jar -DgroupId=alex -DartifactId=AlexLib -Dversion=1.0 -Dpackaging=jar
+
+
+Install the dependency in pom.xml.
+
+<dependency>
+    <groupId>alex</groupId>
+    <artifactId>AlexLib</artifactId>
+    <version>1.0</version>
+</dependency>
+
+

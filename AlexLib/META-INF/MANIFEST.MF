@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AlexLib
+Bundle-SymbolicName: AlexLib
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: AlexLib
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: alex.date,
+ alex.debug,
+ alex.file,
+ alex.graphics.color,
+ alex.graphics.image,
+ alex.http,
+ alex.http.download
