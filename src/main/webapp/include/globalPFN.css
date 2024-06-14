@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+div.scrollableTable {
+	height: 100px;
+	overflow-y: auto;
+	position: sticky;
+	top: 0;
+}
+table.scrollableTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+thead.scrollableTable {
+	position: sticky;
+	top: 0;
+}
+th.scrollableTable {
+	position: sticky;
+	top: 0;
+	border: 1px solid #ccc;
+	background: #eee;
+}
+
+.solidBlackBorder {
+	border: 1px black solid;	
+}
+.solidRedBorder {
+	border: 1px red solid;	
+}
+.solidBlueBorder {
+	border: 1px blue solid;	
+}
+.thickGreenBorder {
+	border: 3px green solid;
+}
+.thickRedBorder {
+	border: 3px red solid;
+}
+
+.guessingDefinitionsDefinitionSpan {
+	font-size: 1.2em;
+	padding: 5px;
+	color: white;
+	background: black;
+	border: 1px solid gray;
+	display: inline-block;
+}
+
+.rightBlackBorder {
+	border-right:1px black solid;
+}
+
+.bottomBlackBorder {
+	border-bottom:1px black solid;
+}
+
+.topBlackBorder {
+	border-top: 1px black solid;
+}
+
+.mediumHeading {
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+
+.enlargedButton {
+	font-size:1.2em;
+}
+.instructionsSmallHeading {
+	font-weight:bold;
+}
+.instructionsBigHeading {
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+span.selectedDisplayNameSpan {
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+span.invertedColors {
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+.sectionHeaderText {
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.redText {
+	color: red;
+}
+
+.greenText {
+	color: green;
+}
+
+.divTable {
+	display: table;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+}
+
+
+@keyframes fadingImage_keyframes {
+  0%   {opacity: 1.0;}
+  10%  {opacity: 0.9;}
+  20%  {opacity: 0.8;}
+  30%  {opacity: 0.7;}
+  40%  {opacity: 0.6;}
+  50%  {opacity: 0.5;}
+  60%  {opacity: 0.4;}
+  70%  {opacity: 0.3;}
+  80%  {opacity: 0.2;}
+  90%  {opacity: 0.1;}
+  100% {opacity: 0.0;}
+}
+
+.fadingImage {
+   position: absolute;
+   opacity: 0.0;
+   animation-name: fadingImage_keyframes;
+   animation-duration: 1s;
+   pointer-events: none;
+}
+
